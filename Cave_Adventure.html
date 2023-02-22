@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cave Adventure</title>
+</head>
+<body>
+<div id="scene">
+    <h1>Cave Adventure</h1>
+    <p id="situation">Press <a href="Cave_Adventure_start.html">START</a> to begin</p>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+        h1 {
+            font-family: "Hanalei Fill";
+            position: absolute;
+            left: 130px;
+            color: #515151;
+            text-shadow: 2px 2px lime;
+        }
+        body {
+            background: linear-gradient(132deg, #000000, #ffffff);
+            color: white;
+        }
+        a {
+            color: white;
+            text-shadow: 2px 2px gray;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #scene {
+            background: url("cave.jpg") no-repeat;
+            height: 960px;
+            width: 960px;
+            position: absolute;
+            top: 20px;
+            left:20px;
+        }
+        #situation {
+            position: absolute;
+            top: 350px;
+            width: 450px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+        }
+    </style>
+</body>
+</html>
